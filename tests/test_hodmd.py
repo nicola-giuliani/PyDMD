@@ -4,7 +4,7 @@ from pydmd.hodmd import HODMD
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-
+#
 # 15 snapshot with 400 data. The matrix is 400x15 and it contains
 # the following data: f1 + f2 where
 # f1 = lambda x,t: sech(x+3)*(1.*np.exp(1j*2.3*t))
