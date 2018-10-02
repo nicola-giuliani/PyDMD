@@ -5,7 +5,7 @@ from pydmd.mrdmd import MrDMD
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+# create the data
 def create_data():
     x = np.linspace(-10, 10, 80)
     t = np.linspace(0, 20, 1600)
